@@ -10,7 +10,7 @@ const {
 } = require("../controllers/user.controller");
 
 // AL routes
-router.get("/users", getAllUsers);
+router.get("/allusers", getAllUsers);
 
 router.post("/adduser", addUser);
 
